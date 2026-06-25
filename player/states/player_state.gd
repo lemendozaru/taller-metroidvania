@@ -11,7 +11,15 @@ var next_state : PlayerState
 #endregion
 
 # Evento cuando el estado inicia
-func _init() -> void:
+func init() -> void:
+	pass
+	
+# Evento cuando se entra al estado
+func enter() -> void:
+	pass
+	
+# Evento cuando se sale del estado
+func exit() -> void:
 	pass
 
 # Called when the node enters the scene tree for the first time.
